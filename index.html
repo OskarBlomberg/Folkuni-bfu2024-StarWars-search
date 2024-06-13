@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars Lost and Found</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header><h1>Star Wars API search</h1></header>
+
+    <main>
+      <article class="people">
+        <section class="column">
+          <input
+            type="text"
+            id="people-search-field"
+            placeholder="Who are you looking for?"
+          />
+          <button id="people-search-btn">Help me Obi-Wan!</button>
+        </section>
+        <hr />
+
+        <section class="results" id="people-results">
+          <p>No results yet...</p>
+        </section>
+      </article>
+
+      <article class="planets">
+        <section class="column">
+          <input
+            type="text"
+            id="planets-search-field"
+            placeholder="Where do you want to learn about?"
+          />
+          <button id="planets-search-btn">Setting a new course...</button>
+        </section>
+        <hr />
+
+        <section class="results" id="planets-results">
+          <p>No results yet...</p>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
